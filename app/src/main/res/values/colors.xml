@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#01a0e4</color>
+    <color name="colorPrimaryDark">#0C719C</color>
+    <color name="colorAccent">#4EC1F3</color>
+
+    <color name="storycolor">#2CC56F</color>
+    <color name="green">#32CD32</color>
+    <color name="storycolorone">#7D7D91</color>
+
+    <color name="statusBarBackground">#4EC1F3</color>
+
+    <color name="list_divider">#d9d9d9</color>
+    <color name="bg_color">#f8f8ff</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+    <color name="dark">#212425</color>
+
+    <color name="red">#FF0000</color>
+
+    // colors [For Flexibale Update]
+    <color name="in_app_snack_bar_text_color">#37474F</color>
+
+</resources>

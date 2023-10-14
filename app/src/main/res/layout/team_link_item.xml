@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_3sdp"
+    android:layout_marginRight="@dimen/_2sdp"
+    android:gravity="left|center_vertical"
+    android:duplicateParentState="true"
+    android:paddingRight="@dimen/_3sdp"
+    android:paddingLeft="@dimen/_3sdp"
+    android:fontFamily="@font/baloosemibold"
+    android:inputType="textMultiLine"
+    android:textColor="@color/black"
+    android:textSize="@dimen/_18sdp" />

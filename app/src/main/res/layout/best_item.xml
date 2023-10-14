@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:elevation="@dimen/_1sdp"
+    android:id="@+id/parent"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_2sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/categoryImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:padding="@dimen/_1sdp"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/categoryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="left"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="Milk"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:id="@+id/priceText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/categoryText"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="right|center_vertical"
+                android:ellipsize="end"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="left"
+                android:singleLine="true"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:text="package"
+                android:visibility="visible"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+
+            <RatingBar
+                android:id="@+id/MyRating"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/categoryText"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="4"
+                android:visibility="gone"
+                android:stepSize="0.1" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+

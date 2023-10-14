@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "843919801750",
+    "project_id": "littleleap-trainer-app",
+    "storage_bucket": "littleleap-trainer-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843919801750:android:09463e9ba5c0822eccb1b7",
+        "android_client_info": {
+          "package_name": "com.littleleap.android.trainer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843919801750-1afbt6kilucen3igs6u02fb1le82tnv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.littleleap.android.trainer",
+            "certificate_hash": "82afcb08bb7eaf75bad4132343b68bfcbeeee2d1"
+          }
+        },
+        {
+          "client_id": "843919801750-5a4udsjl15a3t0iptg0cmto0rt8398ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhB3Ysw4xF0ou4VeOGbM_wzBAI35SI8zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843919801750-5a4udsjl15a3t0iptg0cmto0rt8398ja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

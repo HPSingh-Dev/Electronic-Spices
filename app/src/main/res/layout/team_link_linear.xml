@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hmyLinear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@drawable/editstorynormal"
+    android:layout_below="@+id/headerrelative">
+
+    <LinearLayout
+        android:id="@+id/preLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewcheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:drawableLeft="@drawable/checked_one"
+            android:drawablePadding="@dimen/_5sdp"
+            android:gravity="left|top"
+            android:layout_gravity="top"
+            android:fontFamily="@font/baloosemibold"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+
+
+        <LinearLayout
+            android:id="@+id/mLinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:gravity="left|top"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</HorizontalScrollView>

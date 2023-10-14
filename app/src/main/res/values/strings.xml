@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Digi help app</string>
+
+    <string name="CHANNEL_ID">LittleLeap</string>
+    <string name="CHANNEL_NAME">Little Leap</string>
+    <string name="CHANNEL_DESC">Little Leap</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="please_wait_score">Please wait,score updating.</string>
+    <string name="server_error">Internal server error</string>
+
+    <string name="default_notification_channel_id">little_01</string>
+
+    <string name="db_name">Leap.db</string>
+    <integer name="db_version">1</integer>
+    <string name="share_app">Share with</string>
+
+    // strings [For Flexibale Update]
+    <string name="in_app_snack_bar_message">Update almost finished!</string>
+    <string name="in_app_snack_bar_action_title">RESTART</string>
+
+</resources>
